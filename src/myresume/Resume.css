@@ -1,0 +1,62 @@
+.main-container-resume {
+  display: flex;
+  width: 100%;
+  height: 100vh;
+  background-color: var(--dark-black);
+  padding: 20px;
+  color: white;
+}
+.resume-container1 {
+  display: flex;
+  justify-content: space-between;
+  width: 70%;
+  background-color: rgb(66, 66, 70);
+}
+.resume-container2 {
+  width: 30%;
+  background-color: red;
+}
+.resume-left {
+  width: 10%;
+  height: 100vh;
+  background-color: green;
+}
+.resume-right {
+  width: 90%;
+  padding: 10px;
+}
+.skill-section {
+  display: flex;
+  justify-content: space-around;
+  padding: 10px;
+  background-color: var(--dark-black);
+}
+.process {
+  width: 150px;
+  height: 10px;
+  background-color: teal;
+}
+.icon-text {
+  display: flex;
+  align-items: center;
+}
+.soft-skills {
+  margin: 10px;
+  border: 1px solid black;
+  padding: 10px 30px;
+}
+.hard-skills {
+  margin: 10px;
+  border: 1px solid black;
+  padding: 10px 30px;
+}
+.skill-sections {
+  margin-top: 20px;
+}
+.skill-card {
+  margin: 20px 0;
+}
+.fas,
+.fab {
+  margin: 10px 10px 0 0;
+}
